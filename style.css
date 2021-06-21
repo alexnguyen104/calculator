@@ -39,6 +39,7 @@ body{
     border-radius: 0px 0px 20px 0px;
 }
 .screen{
+    position: relative;
     background-color: rgb(41, 41, 41);
     grid-column: 1/5;
     height: 160px;
@@ -47,4 +48,18 @@ body{
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
     float: right;
+}
+#up{
+    position: absolute;
+    font-size: 30px ;
+    color: rgb(211, 211, 211);
+    top: 10px;
+    right: 10px;
+}
+#down{
+    position: absolute;
+    font-size: 50px;
+    bottom: 10px;
+    right: 9px;
+
 }
