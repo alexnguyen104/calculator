@@ -50,16 +50,27 @@ body{
     float: right;
 }
 #up{
+    font-family: 'Oswald', sans-serif;
     position: absolute;
     font-size: 30px ;
     color: rgb(211, 211, 211);
     top: 10px;
     right: 10px;
+    width: 383px;
+    background: none;
+    border: none;
+    text-align: right;
 }
 #down{
+    font-family: 'Oswald', sans-serif;
     position: absolute;
     font-size: 50px;
     bottom: 10px;
     right: 9px;
+    width: 383px;
+    color: #FFF;
+    background: none;
+    border: none;
+    text-align: right;
 
 }
