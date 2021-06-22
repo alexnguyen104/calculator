@@ -21,7 +21,9 @@ function operatorClick(){
   }
   screenUp.value = Number(screenDown.value) + operator[opeIndex].innerText;
   screenDown.value ="";
-  operator[opeIndex].innerText = "x"
+  if(operator[opeIndex].innerText == "*"){
+    operator[opeIndex].innerText = "x"
+  }
 }
 function equalClick(){
   screenDown.value = eval(screenUp.value + screenDown.value); 
